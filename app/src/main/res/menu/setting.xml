@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_webView"
+        android:icon="@drawable/ic_adjust_black_24dp"
+        android:title="网页"
+        app:showAsAction="ifRoom"></item>
+
+
+    <item
+        android:id="@+id/anim"
+        android:icon="@drawable/ic_panorama_fish_eye_black_24dp"
+        android:title="anim"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/custom"
+        android:icon="@drawable/ic_panorama_fish_eye_black_24dp"
+        android:title="自定义view"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/okhttp"
+        android:icon="@drawable/ic_panorama_fish_eye_black_24dp"
+        android:title="练习trofit"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/tablayout"
+        android:icon="@drawable/ic_panorama_fish_eye_black_24dp"
+        android:title="tablayout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/package_info"
+        android:icon="@drawable/ic_panorama_fish_eye_black_24dp"
+        android:title="packageInfo"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rxjava"
+        android:icon="@drawable/ic_panorama_fish_eye_black_24dp"
+        android:title="rxjava"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/view_1"
+        android:icon="@drawable/ic_panorama_fish_eye_black_24dp"
+        android:title="自定义view1"
+        app:showAsAction="never" />
+
+</menu>

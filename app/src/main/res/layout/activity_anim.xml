@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加" />
+
+            <Button
+                android:id="@+id/remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="移除" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp">
+
+        <ImageButton
+            android:id="@+id/item1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/ic_looks_one_black_24dp"/>
+
+        <ImageButton
+            android:id="@+id/item2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|right"
+            android:visibility="gone"
+            android:background="@drawable/ic_looks_two_black_24dp"/>
+
+        <ImageButton
+            android:id="@+id/item3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|right"
+            android:visibility="gone"
+            android:background="@drawable/ic_looks_3_black_24dp"/>
+
+        <ImageButton
+            android:id="@+id/item4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|right"
+            android:visibility="gone"
+            android:background="@drawable/ic_looks_4_black_24dp"/>
+
+        <ImageButton
+            android:id="@+id/item5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|right"
+            android:visibility="gone"
+            android:background="@drawable/ic_looks_5_black_24dp"/>
+
+        <ImageButton
+            android:id="@+id/item6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|right"
+            android:visibility="gone"
+            android:background="@drawable/ic_looks_6_black_24dp"/>
+
+    </FrameLayout>
+
+</RelativeLayout>
